@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Text, SafeAreaView, TouchableOpacity, StyleSheet, Image } from 'react-native';
 
 
-const imageURI = '/home/taiua_nascimento/Documentos/projects/dio/randomNumber/assets/img/dio-logo.png';
+const imageURI = './assets/img/dio-logo.png';
 
 const App = () => {
     const [numero, setNumero] = useState(10);
